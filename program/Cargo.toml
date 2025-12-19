@@ -14,7 +14,7 @@ no-entrypoint = []
 test-sbf = []
 
 [dependencies]
-solana-program = { git = "https://github.com/jupnet/jupnet-sdk" }
+solana-program = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
 spl-token-2022 = { git = "https://github.com/jupnet/token-2022", branch = "fix/sdk-deps", features = ["no-entrypoint"] }
 spl-token-metadata-interface = { path = "../interface" }
 spl-type-length-value = { git = "https://github.com/jupnet/libraries", branch = "fix/sdk-deps" }
@@ -22,8 +22,8 @@ spl-pod = { git = "https://github.com/jupnet/libraries", branch = "fix/sdk-deps"
 
 [dev-dependencies]
 solana-program-test = { git = "https://github.com/jupnet/jupnet-svm", branch = "v3.1.2" }
-solana-sdk = { git = "https://github.com/jupnet/jupnet-sdk" }
-solana-system-interface = { git = "https://github.com/jupnet/jupnet-sdk" }
+solana-sdk = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
+solana-system-interface = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
 spl-token-client = { git = "https://github.com/jupnet/token", branch = "jupnet" }
 test-case = "3.3"
 
@@ -34,4 +34,4 @@ crate-type = ["cdylib"]
 targets = ["x86_64-unknown-linux-gnu"]
 
 [patch.crates-io]
-jupnet-signature = { git = "https://github.com/jupnet/jupnet-sdk" } 
+jupnet-signature = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" } 
