@@ -15,10 +15,10 @@ test-sbf = []
 
 [dependencies]
 solana-program = { git = "https://github.com/jupnet/jupnet-sdk" }
-spl-token-2022 = { git = "https://github.com/jupnet/token-2022", branch = "jupnet", features = ["no-entrypoint"] }
+spl-token-2022 = { git = "https://github.com/jupnet/token-2022", branch = "fix/sdk-deps", features = ["no-entrypoint"] }
 spl-token-metadata-interface = { path = "../interface" }
-spl-type-length-value = { git = "https://github.com/jupnet/libraries", branch = "jupnet" }
-spl-pod = { git = "https://github.com/jupnet/libraries", branch = "jupnet" }
+spl-type-length-value = { git = "https://github.com/jupnet/libraries", branch = "fix/sdk-deps" }
+spl-pod = { git = "https://github.com/jupnet/libraries", branch = "fix/sdk-deps" }
 
 [dev-dependencies]
 solana-program-test = { git = "https://github.com/jupnet/jupnet-svm", branch = "v3.1.2" }

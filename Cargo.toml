@@ -40,3 +40,10 @@ consolidate-commits = false
 [patch.crates-io]
 jupnet-signature = { git = "https://github.com/jupnet/jupnet-sdk" }
 jupnet-signer = { git = "https://github.com/jupnet/jupnet-sdk" }
+# Redirect crates.io SPL libraries to jupnet forks with fix/sdk-deps branch
+spl-pod = { git = "https://github.com/jupnet/libraries", branch = "fix/sdk-deps" }
+spl-type-length-value = { git = "https://github.com/jupnet/libraries", branch = "fix/sdk-deps" }
+spl-discriminator = { git = "https://github.com/jupnet/libraries", branch = "fix/sdk-deps" }
+spl-token-group-interface = { git = "https://github.com/jupnet/token-group", branch = "fix/sdk-deps" }
+spl-token-metadata-interface = { path = "interface" }
+spl-transfer-hook-interface = { git = "https://github.com/jupnet/transfer-hook", branch = "jupnet" }
