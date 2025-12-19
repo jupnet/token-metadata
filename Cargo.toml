@@ -46,4 +46,4 @@ spl-type-length-value = { git = "https://github.com/jupnet/libraries", branch = 
 spl-discriminator = { git = "https://github.com/jupnet/libraries", branch = "fix/sdk-deps" }
 spl-token-group-interface = { git = "https://github.com/jupnet/token-group", branch = "fix/sdk-deps" }
 spl-token-metadata-interface = { path = "interface" }
-spl-transfer-hook-interface = { git = "https://github.com/jupnet/transfer-hook", branch = "jupnet" }
+spl-transfer-hook-interface = { git = "https://github.com/jupnet/transfer-hook", branch = "fix/sdk-deps" }
