@@ -72,4 +72,21 @@ solana-transaction-error = { git = "https://github.com/jupnet/jupnet-sdk", branc
 
 # Patch SVM crates to use jupnet-svm versions
 agave-feature-set = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+agave-syscalls = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
 mollusk-svm = { git = "https://github.com/jupnet/mollusk", branch = "fix/sdk-deps-test" }
+mollusk-svm-fuzz-fixture = { git = "https://github.com/jupnet/mollusk", branch = "fix/sdk-deps-test" }
+solana-bpf-loader-program = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-compute-budget = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-program-runtime = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-program-test = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-svm = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-svm-callback = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-svm-feature-set = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-svm-log-collector = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-svm-measure = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-svm-timings = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-svm-transaction = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-svm-type-overrides = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-transaction-context = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-system-program = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
+solana-test-validator = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }
