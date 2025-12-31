@@ -69,6 +69,7 @@ solana-sdk-macro = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix
 solana-sha256-hasher = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
 solana-sysvar-id = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
 solana-transaction-error = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-system-interface = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
 
 # Patch SVM crates to use jupnet-svm versions
 agave-feature-set = { git = "https://github.com/jupnet/jupnet-svm", branch = "fix/sdk-deps-test" }

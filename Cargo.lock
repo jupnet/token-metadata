@@ -157,7 +157,7 @@ dependencies = [
  "solana-bn254",
  "solana-clock",
  "solana-cpi",
- "solana-curve25519 3.1.2 (git+https://github.com/jupnet/jupnet-svm?branch=fix%2Fsdk-deps-test)",
+ "solana-curve25519 3.1.2",
  "solana-hash 4.0.1",
  "solana-instruction",
  "solana-keccak-hasher",
@@ -343,7 +343,7 @@ dependencies = [
  "proc-macro-error2",
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -472,7 +472,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "62945a2f7e6de02a31fe400aa489f0e0f5b2502e69f95f853adb82a96c7a6b60"
 dependencies = [
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -498,7 +498,7 @@ dependencies = [
  "num-traits",
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -573,7 +573,7 @@ checksum = "213888f660fddcca0d257e88e54ac05bca01885f258ccdf695bafd77031bb69d"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -691,7 +691,7 @@ checksum = "9035ad2d096bed7955a320ee7e2230574d28fd3c3a0f186cbea1ff3c7eed5dbb"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -893,7 +893,7 @@ dependencies = [
  "proc-macro-crate 3.4.0",
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -988,7 +988,7 @@ checksum = "f9abbd1bc6865053c427f7198e6af43bfdedc55ab791faed4fbd361d789575ff"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -1073,7 +1073,7 @@ checksum = "45565fc9416b9896014f5732ac776f810ee53a66730c17e4020c3ec064a8f88f"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -1329,7 +1329,7 @@ checksum = "f46882e17999c6cc590af592290432be3bce0428cb0d5f8b6715e4dc7b383eb3"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -1353,7 +1353,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "strsim",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -1364,7 +1364,7 @@ checksum = "d38308df82d1080de0afee5d069fa14b0326a88c14f15c5ccda35b4a6c414c81"
 dependencies = [
  "darling_core",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -1561,7 +1561,7 @@ checksum = "97369cbbc041bc366949bc74d34658d6cda5621039731c6310521892a3a20ae0"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -1584,7 +1584,7 @@ checksum = "a6cbae11b3de8fce2a456e8ea3dada226b35fe791f0dc1d360c0941f0bb681f3"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -1671,7 +1671,7 @@ dependencies = [
  "enum-ordinalize 4.3.2",
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -1723,7 +1723,7 @@ checksum = "685adfa4d6f3d765a26bc5dbc936577de9abf756c1feeb3089b01dd395034842"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -1736,7 +1736,7 @@ dependencies = [
  "num-traits",
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -1756,7 +1756,7 @@ checksum = "8ca9601fb2d62598ee17836250842873a413586e5d7ed88b356e38ddbb0ec631"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -2031,7 +2031,7 @@ checksum = "162ee34ebcb7c64a8abebc059ce0fee27c2262618d7b60ed8faf72fef13c3650"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -2211,6 +2211,12 @@ dependencies = [
  "equivalent",
  "foldhash",
 ]
+
+[[package]]
+name = "hashbrown"
+version = "0.16.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "841d1cc9bed7f9236f321df977030373f4a4163ae1a7dbfe1a51a2c1a51d9100"
 
 [[package]]
 name = "heck"
@@ -2553,12 +2559,12 @@ dependencies = [
 
 [[package]]
 name = "indexmap"
-version = "2.11.4"
+version = "2.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4b0f83760fb341a774ed326568e19f5a863af4a952def8c39f9ab92fd95b88e5"
+checksum = "0ad4bb2b565bca0645f4d68c5c9af97fba094e9791da685bf83cb5f3ce74acf2"
 dependencies = [
  "equivalent",
- "hashbrown 0.15.2",
+ "hashbrown 0.16.1",
 ]
 
 [[package]]
@@ -2679,7 +2685,7 @@ checksum = "b787bebb543f8969132630c51fd0afab173a86c6abae56ff3b9e5e3e3f9f6e58"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -3154,7 +3160,7 @@ checksum = "59b43b4fd69e3437618106f7754f34021b831a514f9e1a98ae863cabcd8d8dad"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -3274,7 +3280,7 @@ checksum = "ed3955f1a9c7c0c15e092f9c887db08b1fc683305fdf6eb6684f22555355e202"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -3363,7 +3369,7 @@ dependencies = [
  "proc-macro-crate 3.4.0",
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -3533,7 +3539,7 @@ checksum = "6e918e4ff8c4549eb882f14b3a4bc8c8bc93de829416eacf579f1207a8fbf861"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -3730,7 +3736,7 @@ checksum = "9e2e25ee72f5b24d773cae88422baddefff7714f97aab68d96fe2b6fc4a28fb2"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -4370,7 +4376,7 @@ checksum = "d540f220d3187173da220f885ab66608367b6574e925011a9353e4badda91d79"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -4418,7 +4424,7 @@ dependencies = [
  "darling",
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -5244,19 +5250,6 @@ dependencies = [
  "bytemuck_derive",
  "curve25519-dalek",
  "solana-define-syscall 4.0.1 (git+https://github.com/jupnet/jupnet-sdk?branch=fix%2Fsdk-deps-test)",
- "subtle",
- "thiserror 2.0.17",
-]
-
-[[package]]
-name = "solana-curve25519"
-version = "3.1.2"
-source = "git+https://github.com/jupnet/jupnet-svm?branch=v3.1.2#41aa3dc3fcabed266b2186d594d4cb9c28a76d9f"
-dependencies = [
- "bytemuck",
- "bytemuck_derive",
- "curve25519-dalek",
- "solana-define-syscall 3.0.0",
  "subtle",
  "thiserror 2.0.17",
 ]
@@ -6645,7 +6638,7 @@ dependencies = [
  "bs58",
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -7645,7 +7638,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sha3",
- "solana-curve25519 3.1.2 (git+https://github.com/jupnet/jupnet-svm?branch=fix%2Fsdk-deps-test)",
+ "solana-curve25519 3.1.2",
  "solana-derivation-path 3.0.0 (git+https://github.com/jupnet/jupnet-sdk?branch=fix%2Fsdk-deps-test)",
  "solana-instruction",
  "solana-pubkey 4.0.0",
@@ -7702,7 +7695,7 @@ source = "git+https://github.com/jupnet/libraries?branch=fix%2Fsdk-deps-test#942
 dependencies = [
  "quote",
  "spl-discriminator-syn",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -7713,14 +7706,14 @@ dependencies = [
  "proc-macro2",
  "quote",
  "sha2 0.10.9",
- "syn 2.0.111",
+ "syn 2.0.112",
  "thiserror 2.0.17",
 ]
 
 [[package]]
 name = "spl-elgamal-registry-interface"
 version = "0.1.0"
-source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#c0c54570427ca13ef7a84f5263b88ab33f773862"
+source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#e00fabeec63f862efb738db71cbf471b66a73e00"
 dependencies = [
  "bytemuck",
  "solana-instruction",
@@ -7792,7 +7785,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "sha2 0.10.9",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -7819,7 +7812,7 @@ dependencies = [
 [[package]]
 name = "spl-token-2022"
 version = "10.0.0"
-source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#c0c54570427ca13ef7a84f5263b88ab33f773862"
+source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#e00fabeec63f862efb738db71cbf471b66a73e00"
 dependencies = [
  "arrayref",
  "bytemuck",
@@ -7888,7 +7881,7 @@ dependencies = [
 [[package]]
 name = "spl-token-2022-interface"
 version = "2.1.0"
-source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#c0c54570427ca13ef7a84f5263b88ab33f773862"
+source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#e00fabeec63f862efb738db71cbf471b66a73e00"
 dependencies = [
  "arrayref",
  "bytemuck",
@@ -7928,11 +7921,11 @@ dependencies = [
 [[package]]
 name = "spl-token-confidential-transfer-ciphertext-arithmetic"
 version = "0.4.1"
-source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#c0c54570427ca13ef7a84f5263b88ab33f773862"
+source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#e00fabeec63f862efb738db71cbf471b66a73e00"
 dependencies = [
  "base64 0.22.1",
  "bytemuck",
- "solana-curve25519 3.1.2 (git+https://github.com/jupnet/jupnet-svm?branch=v3.1.2)",
+ "solana-curve25519 3.1.2",
  "solana-zk-sdk 4.0.0 (git+https://github.com/jupnet/zk-elgamal-proof?branch=fix%2Fsdk-deps-test)",
 ]
 
@@ -7959,11 +7952,11 @@ dependencies = [
 [[package]]
 name = "spl-token-confidential-transfer-proof-extraction"
 version = "0.5.1"
-source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#c0c54570427ca13ef7a84f5263b88ab33f773862"
+source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#e00fabeec63f862efb738db71cbf471b66a73e00"
 dependencies = [
  "bytemuck",
  "solana-account-info",
- "solana-curve25519 3.1.2 (git+https://github.com/jupnet/jupnet-svm?branch=v3.1.2)",
+ "solana-curve25519 3.1.2",
  "solana-instruction",
  "solana-instructions-sysvar 3.0.0 (git+https://github.com/jupnet/jupnet-sdk?branch=fix%2Fsdk-deps-test)",
  "solana-msg 3.0.0 (git+https://github.com/jupnet/jupnet-sdk?branch=fix%2Fsdk-deps-test)",
@@ -7989,7 +7982,7 @@ dependencies = [
 [[package]]
 name = "spl-token-confidential-transfer-proof-generation"
 version = "0.5.1"
-source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#c0c54570427ca13ef7a84f5263b88ab33f773862"
+source = "git+https://github.com/jupnet/token-2022?branch=fix%2Fsdk-deps-test#e00fabeec63f862efb738db71cbf471b66a73e00"
 dependencies = [
  "curve25519-dalek",
  "solana-zk-sdk 4.0.0 (git+https://github.com/jupnet/zk-elgamal-proof?branch=fix%2Fsdk-deps-test)",
@@ -7999,7 +7992,7 @@ dependencies = [
 [[package]]
 name = "spl-token-group-interface"
 version = "0.7.1"
-source = "git+https://github.com/jupnet/token-group?branch=fix%2Fsdk-deps-test#e5f7094daf6904988dbdbdfefe3f7ec281d360a6"
+source = "git+https://github.com/jupnet/token-group?branch=fix%2Fsdk-deps-test#e748933d7678a72b4ff2129eafe12ec506adb8fa"
 dependencies = [
  "bytemuck",
  "num-derive",
@@ -8073,7 +8066,7 @@ dependencies = [
 [[package]]
 name = "spl-token-metadata-interface"
 version = "0.8.0"
-source = "git+https://github.com/jupnet/token-metadata?branch=fix%2Fsdk-deps-test#37107121262cb6a13e1f4353c8433809ce1acb17"
+source = "git+https://github.com/jupnet/token-metadata?branch=fix%2Fsdk-deps-test#8aad80e94519991a6873a60c0449ffed39ca8fcd"
 dependencies = [
  "borsh 1.6.0",
  "num-derive",
@@ -8091,7 +8084,7 @@ dependencies = [
 [[package]]
 name = "spl-transfer-hook-interface"
 version = "2.1.0"
-source = "git+https://github.com/jupnet/transfer-hook?branch=fix%2Fsdk-deps-test#b3b369faf468d7087f3d94c791872cd23645f2fb"
+source = "git+https://github.com/jupnet/transfer-hook?branch=fix%2Fsdk-deps-test#9f93ba51ab918175e1f80b431979c552a8e04517"
 dependencies = [
  "arrayref",
  "bytemuck",
@@ -8196,9 +8189,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.111"
+version = "2.0.112"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "390cc9a294ab71bdb1aa2e99d13be9c753cd2d7bd6560c77118597410c4d2e87"
+checksum = "21f182278bf2d2bcb3c88b1b08a37df029d71ce3d3ae26168e3c653b213b99d4"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -8234,7 +8227,7 @@ checksum = "728a70f3dbaf5bab7f0c4b1ac8d7ae5ea60a4b5549c8a5914361c99147a709d2"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -8326,7 +8319,7 @@ dependencies = [
  "cfg-if",
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -8337,7 +8330,7 @@ checksum = "5c89e72a01ed4c579669add59014b9a524d609c0c88c6a585ce37485879f6ffb"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
  "test-case-core",
 ]
 
@@ -8367,7 +8360,7 @@ checksum = "4fee6c4efc90059e10f81e6d42c60a18f76588c3d74cb83a0b242a2b6c7504c1"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -8378,7 +8371,7 @@ checksum = "3ff15c8ecd7de3849db632e14d18d2571fa09dfc5ed93479bc4485c7a517c913"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -8480,7 +8473,7 @@ checksum = "af407857209536a95c8e56f8231ef2c2e2aff839b22e07a1ffcbc617e9db9fa5"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -8674,7 +8667,7 @@ checksum = "7490cfa5ec963746568740651ac6781f701c9c5ea257c58e057f3ba8cf69e8da"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -8941,7 +8934,7 @@ dependencies = [
  "bumpalo",
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
  "wasm-bindgen-shared",
 ]
 
@@ -9053,7 +9046,7 @@ checksum = "053e2e040ab57b9dc951b72c264860db7eb3b0200ba345b4e4c3b14f67855ddf"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -9064,7 +9057,7 @@ checksum = "3f316c4a2570ba26bbec722032c4099d8c8bc095efccdc15688708623367e358"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -9390,7 +9383,7 @@ checksum = "b659052874eb698efe5b9e8cf382204678a0086ebf46982b79d6ca3182927e5d"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
  "synstructure 0.13.2",
 ]
 
@@ -9411,7 +9404,7 @@ checksum = "d8a8d209fdf45cf5138cbb5a506f6b52522a25afccc534d1475dad8e31105c6a"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -9431,7 +9424,7 @@ checksum = "d71e5d6e06ab090c67b5e44993ec16b72dcbaabc526db883a360057678b48502"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
  "synstructure 0.13.2",
 ]
 
@@ -9452,7 +9445,7 @@ checksum = "85a5b4158499876c763cb03bc4e49185d3cccbabb15b33c627f7884f43db852e"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
@@ -9485,14 +9478,14 @@ checksum = "eadce39539ca5cb3985590102671f2567e659fca9666581ad3411d59207951f3"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.111",
+ "syn 2.0.112",
 ]
 
 [[package]]
 name = "zmij"
-version = "1.0.3"
+version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e9747e91771f56fd7893e1164abd78febd14a670ceec257caad15e051de35f06"
+checksum = "e3280a1b827474fcd5dbef4b35a674deb52ba5c312363aef9135317df179d81b"
 
 [[package]]
 name = "zstd"
